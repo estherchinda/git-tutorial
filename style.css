@@ -1,0 +1,35 @@
+/* p {
+    color: rgb(217, 26, 87); 
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 100px; 
+    word-spacing: 30px;
+    text-align: center;
+} */
+
+/* body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1673697240037-404e3567b9ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMGltYWdlcyUyMHBpbmslMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.test {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px black solid;
+    border-radius: 20px;
+
+    /* 4 - top, right, bottom, left */
+    /* 3 - top, left & right, bottom */
+    /* 2 - top & bottom, left & right */
+    /* 1 - all */
+    
+    padding: 20px;
+}
+
+
+
+
+

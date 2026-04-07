@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 24px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.name {
+    color: blue;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat > p {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.connect-btn {
+    height: 30px;
+    width: fit-content;
+    padding: 0 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+
